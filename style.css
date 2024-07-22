@@ -19,6 +19,46 @@ main {
     max-width: 800px;
 }
 
+#intro {
+    text-align: center;
+}
+
+#services {
+    margin-top: 2em;
+}
+
+#services h2 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5em;
+    background: white;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service img {
+    width: 100px;
+    height: 100px;
+    margin-right: 1em;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.service h3 {
+    margin: 0;
+    color: #4CAF50;
+}
+
+.service p {
+    margin: 0.5em 0 0;
+}
+
 footer {
     background-color: #333;
     color: white;
@@ -28,3 +68,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
